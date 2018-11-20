@@ -16,7 +16,7 @@ class LoginForm extends React.Component {
    }) 
  };
 
- checkFields = (e) => {//check
+ checkFields = (e) => {  //check
   e.preventDefault()
   console.log("i am here I am working ")
   if(!this.state.username ||  !this.state.password){
