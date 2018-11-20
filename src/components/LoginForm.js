@@ -23,7 +23,7 @@ class LoginForm extends React.Component {
     return 
   }
    this.props.onSubmit(this.state)
- };//check edn 
+ };//check end
 
   render() {
     return (
